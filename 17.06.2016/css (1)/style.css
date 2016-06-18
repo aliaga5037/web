@@ -1,0 +1,35 @@
+.loginBox{
+    margin: 50px auto;
+    background: #0CB68B;
+    height: 400px;
+    width: 300px;
+}
+.loginBox h1{
+    color: white;
+    padding: 30px;
+}
+.loginBox .form_input{
+    padding: 10px;
+}
+.loginBox label{
+    display: block;
+    color: white;
+    font-weight: bold;
+}
+.loginBox input{
+    width: 90%;
+    margin: 0 auto;
+    border: none;
+    background: white;
+}
+.loginBox .emptyError{
+    padding: 10px;
+    background: red;
+    color: white;
+    display: none;
+}
+.loginBox .postErrors{
+    padding: 10px;
+    background: red;
+    color: white;
+}
